@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "RE:CodemaoAPI",
-  description: "下一个由社区维护的编程猫API文档",
+  description: "下一代由社区维护的编程猫API文档",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
