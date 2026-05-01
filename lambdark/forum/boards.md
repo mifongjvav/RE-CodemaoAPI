@@ -7,14 +7,14 @@
 
 > 只有一个键：`items`，它的值为一个 List，每一项 JSON 内容如下：
 
-|      key      |     value      |  type  |
-| :-----------: | :------------: | :----: |
-|      id       |    板块 ID     | String |
-|     name      |    板块名称    | String |
-|   icon_url    |  板块图标 URL  | String |
-|    is_hot     | 是否为热门板块 |  Boolean  |
-|  has_popular  |     `未知`     |  Boolean  |
-| has_selection |     `未知`     |  Boolean  |
+|      key      |     value      |  type   |
+| :-----------: | :------------: | :-----: |
+|      id       |    板块 ID     | String  |
+|     name      |    板块名称    | String  |
+|   icon_url    |  板块图标 URL  | String  |
+|    is_hot     | 是否为热门板块 | Boolean |
+|  has_popular  |     `未知`     | Boolean |
+| has_selection |     `未知`     | Boolean |
 
 ### 示例
 

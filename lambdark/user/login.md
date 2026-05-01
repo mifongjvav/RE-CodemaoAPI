@@ -18,7 +18,7 @@
 |                                   platform                                    |  value   |
 | :---------------------------------------------------------------------------: | :------: |
 | [Kitten](https://kitten4.codemao.cn/), [Kitten4](https://kitten4.codemao.cn/) | OqMVXvXp |
-|                     [Kitten·N](https://kn.codemao.cn/)                        | YaxgtUTQ |
+|                      [Kitten·N](https://kn.codemao.cn/)                       | YaxgtUTQ |
 |                     [turtle](https://turtle.codemao.cn/)                      | 23AVXalo |
 |                       [wood](https://wood.codemao.cn/)                        | n6kwoCSe |
 |                       [通天塔](https://tob.codemao.cn/)                       | cdRPMRe4 |
@@ -36,28 +36,28 @@
 
 |    key    |               value                | type |
 | :-------: | :--------------------------------: | :--: |
-| user_info | 用户信息（[查看详情](#user_info)） | JSON |
+| user_info | 用户信息（[查看详情](#user-info)） | JSON |
 |   auth    |     认证（[查看详情](#auth)）      | JSON |
 
-### user_info
+### user-info
 
 |     key     |         value          |  type  |
 | :---------: | :--------------------: | :----: |
-|     id      |           ID           |  Number   |
+|     id      |           ID           | Number |
 |  nickname   |          昵称          | String |
 | avatar_url  |        头像链接        | String |
 |  fullname   |        真实姓名        | String |
-|     sex     | 性别（0 为女，1 为男） |  Number   |
-|  birthday   |       生日时间戳       |  Number   |
+|     sex     | 性别（0 为女，1 为男） | Number |
+|  birthday   |       生日时间戳       | Number |
 |     qq      |        QQ 号码         | String |
 | description |        自我描述        | String |
 
 ### auth
 
-|       key        |              value              |  type  |
-| :--------------: | :-----------------------------: | :----: |
-|      token       |              token              | String |
-|      email       |            邮箱地址             | String |
-|   phone_number   | 手机号（格式：123\*\*\*\*4567） | String |
-|   has_password   |          是否设置密码           |  Boolean  |
-| is_weak_password |          是否为弱密码           |  Number   |
+|       key        |              value              |  type   |
+| :--------------: | :-----------------------------: | :-----: |
+|      token       |              token              | String  |
+|      email       |            邮箱地址             | String  |
+|   phone_number   | 手机号（格式：123\*\*\*\*4567） | String  |
+|   has_password   |          是否设置密码           | Boolean |
+| is_weak_password |          是否为弱密码           | Number  |

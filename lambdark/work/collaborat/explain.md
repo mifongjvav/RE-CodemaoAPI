@@ -10,8 +10,8 @@
 
 |   key   |            value            |    type     |
 | :-----: | :-------------------------: | :---------: |
-|  code   | 状态码（[查看详情](#code)） |     Number     |
-| success |        操作是否成功         |    Boolean     |
+|  code   | 状态码（[查看详情](#code)） |   Number    |
+| success |        操作是否成功         |   Boolean   |
 |  data   |     操作结果的详细信息      | JSON/String |
 |   msg   |     操作结果的描述信息      |   String    |
 | extData |          额外信息           |  null/JSON  |

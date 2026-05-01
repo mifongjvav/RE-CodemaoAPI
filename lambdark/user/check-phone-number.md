@@ -5,9 +5,9 @@
 
 ## URL 参数
 
-|     key      |  value   | type |        |
-| :----------: | :------: | :--: | :----: |
-| phone_number | 手机号码 | Number  | `必须` |
+|     key      |  value   |  type  |        |
+| :----------: | :------: | :----: | :----: |
+| phone_number | 手机号码 | Number | `必须` |
 
 ## 返回内容
 

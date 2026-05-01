@@ -8,9 +8,9 @@
 
 ## URL 参数
 
-|  key  |    value     | type |        |
-| :---: | :----------: | :--: | :----: |
-| limit | 每一页的数量 | Number  | `可选` |
+|  key  |    value     |  type  |        |
+| :---: | :----------: | :----: | :----: |
+| limit | 每一页的数量 | Number | `可选` |
 
 ## 返回内容
 
@@ -21,4 +21,4 @@
 |     id     |     公告 ID      | String |
 |  post_id   |     帖子 ID      | String |
 | post_title |     帖子标题     | String |
-|  ordinal   | 在公告栏中的顺序 |  Number   |
+|  ordinal   | 在公告栏中的顺序 | Number |

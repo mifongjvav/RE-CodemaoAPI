@@ -10,9 +10,9 @@
 |                  key                  |  value   |  type  |
 | :-----------------------------------: | :------: | :----: |
 | [query_type](#description_query_type) | 消息类型 | String |
-|                 count                 |   数量   |  Number   |
+|                 count                 |   数量   | Number |
 
-### `query_type`说明： :id=description_query_type
+### `query_type`说明：{#id=description_query_type}
 
 |     value     | description |
 | :-----------: | :---------: |

@@ -1,10 +1,12 @@
 # 发布帖子
 
-!> 调用此 API 需要账号绑定手机号
+::: warning
+调用此 API 需要账号绑定手机号
+:::
 
 > 在相应板块发布帖子  
 > `/web/forums/boards/<board_id>/posts` `POST` `需要cookies`
-
+>
 > 在工作室发布帖子  
 > `/web/works/subjects/<workshop_id>/post` `POST` `需要cookies`
 

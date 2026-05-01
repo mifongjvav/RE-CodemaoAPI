@@ -9,17 +9,17 @@
 
 |       key        |    value     |  type  |
 | :--------------: | :----------: | :----: |
-|        id        |   小说 ID    |  Number   |
+|        id        |   小说 ID    | Number |
 |      title       |    小说名    | String |
 |    cover_pic     | 封面图片 URL | String |
-|    view_times    |    浏览数    |  Number   |
-|       sort       |    `未知`    |  Number   |
-|     user_id      |   作者 ID    |  Number   |
+|    view_times    |    浏览数    | Number |
+|       sort       |    `未知`    | Number |
+|     user_id      |   作者 ID    | Number |
 |     nickname     |   作者昵称   | String |
-|  fanfic_type_id  | 小说类型 ID  |  Number   |
+|  fanfic_type_id  | 小说类型 ID  | Number |
 | fanfic_type_name | 小说类型名称 | String |
-|   update_time    |  更新时间戳  |  Number   |
-|  collect_times   |    收藏数    |  Number   |
+|   update_time    |  更新时间戳  | Number |
+|  collect_times   |    收藏数    | Number |
 
 ### 示例
 

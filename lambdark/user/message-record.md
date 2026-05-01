@@ -1,19 +1,21 @@
 # 消息记录
 
-!> 这个 API 文档正在编写中，请勿使用
+::: warning
+这个 API 文档正在编写中，请勿使用
+:::
 
 > 获取自己的消息记录  
 > `/web/message-record` `GET` `需要cookies`
 
 ## URL 参数
 
-|                  key                  |           value           |  type  |        |
-| :-----------------------------------: | :-----------------------: | :----: | :----: |
-| [query_type](#description_query_type) |         消息类型          | String | `必须` |
-|                 limit                 | 每一页的数量`10\|[5,200]` |  Number   | `可选` |
-|                offset                 |           页码            |  Number   | `可选` |
+|                   key                    |           value           |  type  |        |
+| :--------------------------------------: | :-----------------------: | :----: | :----: |
+| [query_type](#id=description_query_type) |         消息类型          | String | `必须` |
+|                  limit                   | 每一页的数量`10\|[5,200]` | Number | `可选` |
+|                  offset                  |           页码            | Number | `可选` |
 
-### `query_type`说明： :id=description_query_type
+### `query_type`说明：{#id=description_query_type}
 
 |     value     | description |
 | :-----------: | :---------: |
@@ -23,9 +25,9 @@
 
 ## 返回内容
 
-|   key   |                      value                       | type |
-| :-----: | :----------------------------------------------: | :--: |
-|  items  | 由多个 JSON 构成的消息列表（[查看详情](#items)） | list |
+|   key   |                      value                       |  type   |
+| :-----: | :----------------------------------------------: | :-----: |
+|  items  | 由多个 JSON 构成的消息列表（[查看详情](#items)） |  list   |
 | offset  |                       页码                       | Number  |
 |  limit  |                   每一页的数量                   | Number  |
 |  total  |                      `未知`                      | Number  |
@@ -42,7 +44,7 @@
 |  sender_id   |              消息发送者 ID               | String |
 | receiver_id  |              消息接收者 ID               | String |
 | read_status  | 阅读状态（`READ`为已读，`UNREAD`为未读） | String |
-|  created_at  |              消息产生时间戳              |  Number   |
+|  created_at  |              消息产生时间戳              | Number |
 
 #### type
 

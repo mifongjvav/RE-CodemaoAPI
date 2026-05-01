@@ -3,7 +3,7 @@
 > 生成随机昵称  
 > `/api/user/random/nickname` `GET`
 
-### 示例
+## 示例
 
 ```json
 {

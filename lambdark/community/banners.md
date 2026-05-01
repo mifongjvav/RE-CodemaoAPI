@@ -5,11 +5,11 @@
 
 ## URL 参数
 
-|            key            | value |  type  |        |
-| :-----------------------: | :---: | :----: | :----: |
-| [type](#description_type) | 类型  | String | `可选` |
+|             key              | value |  type  |        |
+| :--------------------------: | :---: | :----: | :----: |
+| [type](#id=description_type) | 类型  | String | `可选` |
 
-### `type`说明： :id=description_type
+### `type`说明：{#id=description_type}
 
 |      类型      |       值        |
 | :------------: | :-------------: |

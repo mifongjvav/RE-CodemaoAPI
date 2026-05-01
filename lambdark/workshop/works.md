@@ -5,11 +5,11 @@
 
 ## GET 请求信息
 
-|       KEY       |                VALUE                | TYPE  |        |
-| :-------------: | :---------------------------------: | :---: | :----: |
+|       KEY       |                VALUE                |   TYPE   |        |
+| :-------------: | :---------------------------------: | :------: | :----: |
 |     offset      |        起始编号 \[默认为 0\]        | `Number` | `可选` |
 |      limit      |       列举数量 \[默认为 15\]        | `Number` | `可选` |
-|      sort       |      排序方式[可选参数](#sort)      | `str` | `可选` |
+|      sort       |      排序方式[可选参数](#sort)      |  `str`   | `可选` |
 |     user_id     |     将哪一个用户的作品排在最前      | `Number` | `可选` |
 | work_subject_id | 如果指定，必须与`<workshop_id>`一致 | `Number` | `可选` |
 
@@ -23,10 +23,10 @@
 
 ## 返回内容
 
-|   KEY   |                 VALUE                 | TYPE |
-| :-----: | :-----------------------------------: | :--: |
+|   KEY   |                 VALUE                 |  TYPE   |
+| :-----: | :-----------------------------------: | :-----: |
 | counted |        \[未知\] 返回总是 True         | Boolean |
-|  items  |          [查看详情](#items)           | List |
+|  items  |          [查看详情](#items)           |  List   |
 |  limit  | GET 参数中的 limit，如果没有，则为 15 | Number  |
 | offset  | GET 参数中的 offset，如果没有，则为 0 | Number  |
 |  total  |             items 的长度              | Number  |
@@ -35,16 +35,16 @@
 
 items 是列表类型
 
-|     KEY      |             VALUE             | TYPE |
-| :----------: | :---------------------------: | :--: |
-|  audited_at  |           发布时间            | Number  |
-|      id      |            作品 id            | Number  |
-|     name     |           作品名称            | str  |
-| praise_times |         作品点赞数量          | Number  |
-|  view_times  |         作品浏览数量          | Number  |
-|   preview    |         作品封面图片          | str  |
-|     type     |    \[未知\] 大部分为"IDE"     | str  |
-|     user     | 用户信息（[查看详情](#user)） | dict |
+|     KEY      |             VALUE             |  TYPE  |
+| :----------: | :---------------------------: | :----: |
+|  audited_at  |           发布时间            | Number |
+|      id      |            作品 id            | Number |
+|     name     |           作品名称            |  str   |
+| praise_times |         作品点赞数量          | Number |
+|  view_times  |         作品浏览数量          | Number |
+|   preview    |         作品封面图片          |  str   |
+|     type     |    \[未知\] 大部分为"IDE"     |  str   |
+|     user     | 用户信息（[查看详情](#user)） |  dict  |
 
 #### user
 
