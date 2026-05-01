@@ -3,9 +3,11 @@ import { sidebar } from "./sidebar.js";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [["link", { rel: "icon", href: "https://afsweb.qzz.io/logo.svg" }]],
   title: "RE:CodemaoAPI",
   description: "下一代由社区维护的编程猫API文档",
   themeConfig: {
+    logo: "https://afsweb.qzz.io/logo.svg",
     nav: [
       { text: "Home", link: "/" },
       { text: "API", link: "/api_main" },
@@ -22,8 +24,9 @@ export default defineConfig({
         },
       ],
       "/lambdark/": [
+        ...sidebar,
         {
-          text: "社区功能",
+          text: "关于",
           items: [
             { text: "作者：lambdark", link: "https://lambdark.com/" },
             {
@@ -32,7 +35,6 @@ export default defineConfig({
             },
           ],
         },
-        ...sidebar,
       ],
     },
 
