@@ -13,4 +13,4 @@
 
 ## 返回内容
 
-> 与[关注列表](/user/follow-list.md)完全一样
+> 与[关注列表](./follow-list.md)完全一样
